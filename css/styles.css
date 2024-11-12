@@ -1,0 +1,121 @@
+body.cruise-page {
+  background-image: url('../images/cruisebackground.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #00ff08;
+}
+
+body.home-page {
+  background-image: url('../images/citybackground.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #000000;
+}
+
+body.safari-page {
+  background-image: url('../images/safaribackground.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #000000;
+}
+
+body.resume-page {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body {
+  font-family: "Arial", "Helvetica", sans-serif;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  margin-top: 2rem;
+  font-family: 'Georgia', serif;
+}
+
+section {
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 80%;
+}
+
+nav {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 2rem;
+}
+
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #ffcc00;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+  margin-right: 1.5rem;
+}
+
+ul li a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+ul li a:hover {
+  color: #ffcc00;
+}
+
+p, li {
+  text-align: left;
+  font-size: 1.1em;
+  line-height: 1.8;
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    max-width: 95%;
+  }
+  a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #ff6600;
+    text-decoration: underline;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  ul li {
+    margin-right: 8px;
+  }
+}
