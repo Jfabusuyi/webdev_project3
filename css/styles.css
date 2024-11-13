@@ -3,7 +3,7 @@ body.cruise-page {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  color: #00ff08;
+  color: #000000; 
 }
 
 body.home-page {
@@ -68,6 +68,7 @@ nav ul li a:hover {
   color: #ffcc00;
 }
 
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -96,14 +97,17 @@ p, li {
   line-height: 1.8;
 }
 
+
 @media screen and (max-width: 768px) {
   section {
     max-width: 95%;
   }
+
   a {
     color: #0066cc;
     text-decoration: none;
   }
+
   a:hover {
     color: #ff6600;
     text-decoration: underline;
