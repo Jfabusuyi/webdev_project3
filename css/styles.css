@@ -1,3 +1,6 @@
+body {
+  font-family: "Arial", "Helvetica", sans-serif;
+}
 
 body.cruise-page {
   background-image: url('../images/cruisebackground.jpg');
@@ -5,6 +8,27 @@ body.cruise-page {
   background-position: center;
   background-attachment: fixed;
   color: #00ff08;
+}
+
+body.home-page {
+  background-image: url('../images/citybackground.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #000000;
+}
+
+body.safari-page {
+  background-image: url('../images/safaribackground.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #000000;
+}
+
+body.resume-page {
+  background-color: #ffffff;
+  color: #000000;
 }
 
 h1, h2, h3 {
@@ -72,7 +96,6 @@ p, li {
   line-height: 1.8;
 }
 
-
 @media screen and (max-width: 768px) {
   section {
     max-width: 95%;
@@ -103,7 +126,6 @@ p, li {
     font-size: 1.2em;
   }
 }
-
 
 @media screen and (min-width: 1024px) {
   body.cruise-page {
@@ -140,7 +162,6 @@ p, li {
   }
 }
 
-
 @media screen and (min-width: 1280px) {
   body.cruise-page {
     background-size: contain;
@@ -173,7 +194,8 @@ p, li {
   nav ul li a {
     font-size: 1.5em;
   }
-  
+}
+
 .slider {
   position: relative;
   width: 100%;
@@ -193,8 +215,8 @@ p, li {
 
 button.prev, button.next {
   position: absolute;
-  top: 50%; 
-  transform: translateY(-50%); 
+  top: 50%;
+  transform: translateY(-50%);
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   border: none;
@@ -227,6 +249,7 @@ button.prev-bottom, button.next-bottom {
   cursor: pointer;
   font-size: 18px;
 }
+
 #map {
   height: 500px;
   width: 100%;
@@ -241,7 +264,4 @@ button.prev-bottom, button.next-bottom {
 .landmarks li {
   margin: 5px 0;
   font-weight: bold;
-}
-
-
 }
