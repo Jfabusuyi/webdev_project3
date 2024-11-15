@@ -227,5 +227,21 @@ button.prev-bottom, button.next-bottom {
   cursor: pointer;
   font-size: 18px;
 }
+#map {
+  height: 500px;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.landmarks {
+  list-style-type: none;
+  padding: 0;
+}
+
+.landmarks li {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
 
 }

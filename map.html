@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
     <title>Map</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWYQO6cpKjCy4p4VvOlScXCZazfKjfKhc&callback=initMap">
+	</script>
+
   </head>
 
   <body class="map-page">
@@ -16,7 +21,15 @@
       <li><a href="map.html">Map</a></li>
     </ul>
 
-    <h1>Interactive Map</h1>
-    <p>Here is a map with a marker and custom controls added!</p>
-
-   
+    <section>
+      <h1>Chicago Landmarks</h1>
+      <p>Explore some of the most iconic landmarks in Chicago:</p>
+      <ul class="landmarks">
+        <li>Sears Tower</li>
+        <li>Navy Pier</li>
+        <li>Millennium Park</li>
+      </ul>
+      <div id="map"></div>
+    </section>
+  </body>
+</html>
