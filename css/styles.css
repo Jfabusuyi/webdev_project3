@@ -173,4 +173,59 @@ p, li {
   nav ul li a {
     font-size: 1.5em;
   }
+  
+.slider {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider img {
+  width: 100%;
+  display: none;
+}
+
+.slider img.active {
+  display: block;
+}
+
+button.prev, button.next {
+  position: absolute;
+  top: 50%; 
+  transform: translateY(-50%); 
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  z-index: 10;
+}
+
+button.prev {
+  left: 10px;
+}
+
+button.next {
+  right: 10px;
+}
+
+.slider-controls {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 10px;
+}
+
+button.prev-bottom, button.next-bottom {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
 }
